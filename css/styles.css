@@ -1,5 +1,5 @@
 .landing-page {
-    background: url(/assets/backgrounds/hero.jpg) no-repeat center center fixed;
+    background: url(/assets/backgrounds/hero.jpg) no-repeat center center;
     background-size: cover;
     border-radius: 0px;
     padding: 0px;
@@ -22,25 +22,23 @@
 }
 
 .selection {
-    background-color: bisque;
+    background-color: #bcba95;
     padding: 1.5em 2em;
 }
 
-.cloths-section {
-    padding: 1.5em 2em;
-
+.select-product .btn {
+    background-color: #800000;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 4px;
 }
 
 
 
-.customHr {
-    width: 49em;
-    color: rgba(0, 0, 0, 0);
-    line-height: 1px;
-    background-color: grey;
-    margin-top: -6px;
-    margin-bottom: 10px;
-}
 
 .top-select {
     font-size: 11px;
@@ -48,7 +46,7 @@
 
 .bottom-product {
     font-size: 11px;
-    color: #D4AF37;
+    color: #bcba95;
 }
 
 .cloth-item {
@@ -86,6 +84,20 @@
 
 }
 
+.about-section {
+    color: white;
+    border: 2px solid #bcba95;
+
+
+}
+
+.about-section h3 {
+    margin-top: -15px;
+    background-color: inherit;
+    position: relative;
+
+}
+
 .sales {
     background-color: #545454;
     color: white;
@@ -93,4 +105,21 @@
 
 .footer {
     background-color: #363636;
+    color: white;
+}
+
+
+
+.social ul {
+    display: flex;
+    list-style: none;
+}
+
+.footer-links ul {
+    display: flex;
+    list-style: none;
+}
+
+.tag-line h4 {
+    font-size: 24px;
 }

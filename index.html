@@ -19,19 +19,20 @@
 </head>
 <section id="header">
     <div class="container-fluid landing-page d-flex flex-column">
-        <div class="menu">
+        <div class="menu mt-4">
             <nav class="navbar navbar-expand-lg navbar-transparent">
-                <h2 class="navbar-brand mr-auto">Yolomy</h2>
+                <img class="navbar-brand mr-auto" src="/assets/logo/logo.png" alt="">
+                <!-- <h2 class="navbar-brand mr-auto">Yolomy</h2> -->
                 <ul class="navbar-nav mr-left">
-                    <li class="nav-item">
+                    <li class="nav-item mr-4">
                         <p class="nav-link">Home</p>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item mx-4">
                         <p class="nav-link"
                            href="#">Product</p>
                     </li>
-                    <li class="nav-item">
-                        <p class="nav-link">Cart</p>
+                    <li class="nav-item mx-4">
+                        <img class="nav-link" src="/assets/logo/shop.png" alt="">
                     </li>
                 </ul>
             </nav>
@@ -44,6 +45,9 @@
                     are
                     wearing</p>
             </div>
+        </div>
+        <div class="arrow mx-auto pb-4 mb-4">
+            <img src="/assets/mouse_click.png" alt="">
         </div>
     </div>
     <div class="container-fluid selection">
@@ -76,29 +80,28 @@
             </div>
             <div class="select-product ml-auto">
                 <button type="button"
-                        class="btn btn-primary">SELECT PRODUCT</button>
+                        class="btn">SELECT PRODUCT</button>
                 <div></div>
             </div>
         </div>
 </section>
 
 <section id="content">
-    <div class="container-fluid cloths-section d-flex">
-        <div class="clothing mx-auto">
-            <div class="men">
-                <div class="top-heading-men d-flex flex-row">
+    <div class="container-fluid cloths-section d-flex flex-wrap my-4">
+        <div class="clothing mx-auto mb-4">
+            <div class="men my-4">
+                <div class="top-heading-men d-flex flex-row my-2">
                     <div class="header-cloth">
-                        <p>Men</p>
+                        <p>Men</p>         
                     </div>
-                    <div class="line ml-auto">
-                        <div class="customHr mt-2">.</div>
-                    </div>
+                    <hr  class="my-2"width="95%" color="#bcba95">
                 </div>
-                <div class="men-items d-flex flex-row">
-                    <div class="card cloth-item border-0 mr-4"
-                         style="width:40%">
+                <div class="men-items d-flex flex-row flex-wrap my-4">
+                    <div class="card cloth-item border-0 mr-4 my-2"
+                         style="width:18em">
                         <div class="card-header border-0">
                             <p class="top-select">SIZE</p>
+                            
                         </div>
                         <div class="card-body border-0 d-flex justify-content-center">
                             <img src="/assets/products/tshirt.png"
@@ -108,8 +111,8 @@
                             <p class="bottom-product">T-SHIRT</p>
                         </div>
                     </div>
-                    <div class="card cloth-item border-0 ml-4 mr-4"
-                         style="width:40%">
+                    <div class="card cloth-item border-0 ml-4 mr-4 my-2"
+                         style="width:18em">
                         <div class="card-header border-0">
                             <p class="top-select">SIZE</p>
                         </div>
@@ -121,8 +124,8 @@
                             <p class="bottom-product">PANTS FORCLAZ</p>
                         </div>
                     </div>
-                    <div class="card cloth-item border-0 ml-4"
-                         style="width:40%">
+                    <div class="card cloth-item border-0 ml-4 my-2"
+                         style="width:18em">
                         <div class="card-header border-0">
                             <p class="top-select">SIZE</p>
                         </div>
@@ -136,18 +139,17 @@
                     </div>
                 </div>
             </div>
-            <div class="women">
-                <div class="top-heading-men d-flex flex-row">
+            <div class="women my-2">
+                <div class="top-heading-men d-flex flex-row my-2">
 
-                    <div class="line mr-auto">
-                        <div class="customHr mt-2">.</div>
-                    </div>
+                    <hr  class="my-2"width="95%" color="#bcba95">
+
                     <div class="top-heading-men">
                         <p>Women</p>
                     </div>
                 </div>
-                <div class="women-items d-flex flex-row">
-                    <div class="card cloth-item border-0 mr-4">
+                <div class="women-items d-flex flex-wrap my-4">
+                    <div class="card cloth-item border-0 mr-4 my-2" style="width:18em">
                         <div class="card-header border-0">
                             <p class="top-select">SIZE</p>
                         </div>
@@ -159,7 +161,7 @@
                             <p class="bottom-product">GIAJACKET</p>
                         </div>
                     </div>
-                    <div class="card cloth-item border-0 ml-4 mr-4">
+                    <div class="card cloth-item border-0 ml-4 mr-4 my-2" style="width:18em">
                         <div class="card-header border-0">
                             <p class="top-select">SIZE</p>
                         </div>
@@ -171,7 +173,7 @@
                             <p class="bottom-product">TREKKING SHOES</p>
                         </div>
                     </div>
-                    <div class="card cloth-item border-0 ml-4">
+                    <div class="card cloth-item border-0 ml-4 my-2" style="width:18em">
                         <div class="card-header border-0">
                             <p class="top-select">SIZE</p>
                         </div>
@@ -185,14 +187,13 @@
                     </div>
                 </div>
             </div>
-
         </div>
     </div>
 </section>
-<section id="about-us d-flex">
-    <div class="container-fluid about-us d-flex justify-content-center flex-column">
-        <div class="about-section border-1 w-50 mx-auto">
-            <h3 class="text-center">ABOUT US</h3>
+<section id="about-us">
+    <div class="container-fluid about-us d-flex justify-content-center flex-column mt-4">
+        <div class="about-section w-50 mx-auto">
+            <h3 class="text-center mb-4">ABOUT US</h3>
             <div class="about-content m-4">
             <p class="text-justify w-50 mx-auto">This is where high-fashion clothing is designed and crafted from the heart by an amazing team of
                 craftsmen
@@ -200,65 +201,68 @@
                 </div>
         </div>
     </div>
-    <div class="sales d-flex pl-4 pt-2">
+    <div class="container-fluid sales d-flex pl-4 pt-2">
         <div class="twitter mr-4">
-            <img src="/assets/social_icons/twitter_bird.png"
+            <img class="ml-4 mt-1" src="/assets/social_icons/twitter_bird.png"
                  alt="twitter bird">
         </div>
-        <div class="promo mt-1">
+        <div class="promo mt-1 ml-4">
             <p>"SALE: Buy anything for 45% off. Use the promo CODE YOLOMY45 when you buy items"</p>
         </div>
     </div>
 </section>
 <section id="footer">
-    <div class="container-fluid footer">
-        <div class="social-info d-flex flex-row">
-            <div class="info">
-                <h3>YOLOMY</h3>
-                <h4>WE ARE YOLOMY-WE UNDERSTAND</h4>
-                <h4>FASHSION AND STYLE. WE CRAFT OUR</h4>
-                <h4>PRODUCTS WITH LOVE AND DILIGENCE</h4>
+    <div class="container-fluid footer d-flex flex-column py-4" >
+        <div class="social-info d-flex flex-row flex-wrap justify-content-center col-md-11 mx-auto">
+            <div class="info col-md-4 d-flex flex-column justify-content-center mt-4">
+                <h3 class="text-center">YOLOMY</h3>
+                <div class="yolomy text-center">
+                <p class="p-1 m-0">WE ARE YOLOMY-WE UNDERSTAND</p>
+                <p class="p-1 m-0">FASHSION AND STYLE. WE CRAFT OUR</p>
+                <p class="p-1 m-0">PRODUCTS WITH LOVE AND DILIGENCE</p>
+                </div>
             </div>
-            <div class="social">
-                <h3>We are social</h3>
-                <ul class="social-icons d-flex flex-row">
-                    <li><img src="/assets/social_icons/g_plus.png"
+            <div class="social col-md-4 d-flex flex-column justify-content-center">
+                <h3 class="social-header text-center ml-4 pl-2 mb-4 pb-2">We are social</h3>
+                <div class="social-links">
+                <ul class="social-icons d-flex flex-row justify-content-center">
+                    <li class="mx-2"><img src="/assets/social_icons/g_plus.png"
                              alt=""></li>
-                    <li><img src="/assets/social_icons/facebook.png"
+                    <li class="mx-2"><img src="/assets/social_icons/facebook.png"
                              alt=""></li>
-                    <li><img src="/assets/social_icons/you_tube.png"
+                    <li class="mx-2"><img src="/assets/social_icons/you_tube.png"
                              alt=""></li>
-                    <li><img src="/assets/social_icons/stumble_upon.png"
+                    <li class="mx-2"><img src="/assets/social_icons/stumble_upon.png"
                              alt=""></li>
                 </ul>
-                <ul class="social-icons d-flex flex-row">
-                    <li><img src="/assets/social_icons/skype.png"
+                <ul class="social-icons d-flex flex-row justify-content-center">
+                    <li class="mx-2"><img src="/assets/social_icons/skype.png"
                              alt=""></li>
-                    <li><img src="/assets/social_icons/flickr.png"
+                    <li class="mx-2"><img src="/assets/social_icons/flickr.png"
                              alt=""></li>
-                    <li><img src="/assets/social_icons/twitter.png"
-                             alt=""></li>
-                    <li><img src="/assets/social_icons/pinterest.png"
+                    <li class="mx-2"><img src="/assets/social_icons/twitter.png"
+                             alt="mx-2"></li>
+                    <li class="mx-2"><img src="/assets/social_icons/pinterest.png"
                              alt=""></li>
                 </ul>
-
+                </div>
             </div>
-            <div class="contact">
-                <div class="footer-links">
-                    <ul>
-                        <li>CREDITS</li>
-                        <li>PRIVACY</li>
-                        <li>ABOUT</li>
-                        <li>CONTACT</li>
+            <div class="contact col-md-4 d-flex flex-column justify-content-center">
+                <div class="footer-links mr-4">
+                    <ul class="ml-0 mr-4">
+                        <li class="mr-2 ml-0 px-2 border-left border-warning">CREDITS</li>
+                        <li class="mx-2 px-2 border-left border-warning">PRIVACY</li>
+                        <li class="mx-2 px-2 border-left border-warning">ABOUT</li>
+                        <li class="ml-2 px-2 border-left border-warning">CONTACT</li>
                     </ul>
                 </div>
-                <div class="tag-line">
-                    <h3>Yolomy: WE Mean Fashion</h3>
+                <div class="tag-line ml-4 pl-4">
+                    <h4>Yolomy: WE Mean Fashion</h3>
                 </div>
             </div>
         </div>
-        <div class="copyright">
-            <h3>COPYRIGHT 2015. YOLOMY INC</h3>
+        <div class="copyright d-flex justify-content-center mt-4 pt-4">
+            <p>COPYRIGHT 2015. YOLOMY INC</p>
         </div>
     </div>
 
