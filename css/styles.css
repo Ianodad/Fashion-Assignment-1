@@ -9,6 +9,18 @@
 
 }
 
+.main-tag {
+    color: white;
+}
+
+.tag-main p {
+    text-align: center;
+}
+
+.navbar-nav {
+    color: white;
+}
+
 .selection {
     background-color: bisque;
     padding: 1.5em 2em;
@@ -17,4 +29,68 @@
 .cloths-section {
     padding: 1.5em 2em;
 
+}
+
+
+
+.customHr {
+    width: 49em;
+    color: rgba(0, 0, 0, 0);
+    line-height: 1px;
+    background-color: grey;
+    margin-top: -6px;
+    margin-bottom: 10px;
+}
+
+.top-select {
+    font-size: 11px;
+}
+
+.bottom-product {
+    font-size: 11px;
+    color: #D4AF37;
+}
+
+.cloth-item {
+    width: 250px;
+    border-left-color: #ccc;
+}
+
+.card {
+    border-radius: 0 !important;
+    border: 1px solid #e5e5e5;
+}
+
+.card-header {
+    background-color: #F4F4F4;
+
+}
+
+.card-body {
+    background-color: #F4F4F4;
+}
+
+.card-footer {
+    background-color: #F4F4F4;
+
+}
+
+.about-us {
+    background: url(/assets/backgrounds/about.jpg) no-repeat center center fixed;
+    background-size: cover;
+    border-radius: 0px;
+    padding: 0px;
+    margin: 0px;
+    border: 0 none;
+    min-height: 300px;
+
+}
+
+.sales {
+    background-color: #545454;
+    color: white;
+}
+
+.footer {
+    background-color: #363636;
 }
