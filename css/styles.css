@@ -40,8 +40,39 @@
 
 
 
-.top-select {
-    font-size: 11px;
+.top-select,
+.price {
+    font-size: 13px;
+}
+
+.c-green {
+    background-color: green;
+}
+
+.c-blue {
+    background-color: blue
+}
+
+.c-grey {
+    background-color: grey
+}
+
+.c-pink {
+    background-color: pink
+}
+
+.c-white {
+    background-color: white;
+}
+
+.c-green,
+.c-blue,
+.c-grey,
+.c-white,
+.c-pink {
+    width: 15px;
+    height: 15px;
+
 }
 
 .bottom-product {
