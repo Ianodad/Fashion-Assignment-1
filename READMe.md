@@ -1,2 +1,2 @@
 # Fashion website
-This is a replica of a website
+This is a replica of a fashion website
